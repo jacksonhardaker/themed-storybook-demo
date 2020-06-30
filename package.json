@@ -1,0 +1,31 @@
+{
+  "name": "themed-storybook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "storybook:one": "THEME=one start-storybook -p 6006",
+    "storybook:two": "THEME=two start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^3.6.0",
+    "extract-css-chunks-webpack-plugin": "^4.7.5",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/react": "^5.3.19",
+    "babel-loader": "^8.1.0"
+  }
+}
