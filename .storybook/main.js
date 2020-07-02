@@ -6,7 +6,7 @@ const isDevelopment = process.env.NODE_ENV === 'development';
 
 module.exports = {
   stories: ['../stories/**/*.stories.js'],
-  addons: ['@storybook/addon-actions', '@storybook/addon-links'],
+  addons: ['@storybook/addon-actions', '@storybook/addon-links', 'storybook-addon-themes'],
   webpackFinal: config => {
     const { plugins, module, ...rest } = config;
     const { rules, ...moduleRest } = module;

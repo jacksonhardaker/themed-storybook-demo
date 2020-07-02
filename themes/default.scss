@@ -1,1 +1,11 @@
-@import "one";
+:root {
+    --color-primary: #16498a;
+}
+
+:global(.one) {
+    @import "one";
+}
+
+:global(.two) {
+    @import "two";
+}
